@@ -6,11 +6,11 @@ const Navbar = () => {
     <nav style={{ display: "flex", gap: "10px", padding: "10px" , backgroundColor: "black",
         color: "white",}}>
           <p>Pizzeria Mamma Mía</p>
-      <button className="btn btn-primary navbar-button">🍕 Home</button>
-      <button className="btn btn-secondary navbar-button">🔓 Profile</button>
-      <button className="btn btn-danger navbar-button" >🔒 Logout</button>
-      <button className="btn btn-success navbar-button">🔐 Login</button>
-      <button className="btn btn-warning navbar-button">🔐 Register</button>
+      <button className="btn bbtn btn-outline-secondary">🍕 Home</button>
+      <button className="btn btn-outline-secondary">🔓 Profile</button>
+      <button className="btn btn-outline-secondary" >🔒 Logout</button>
+      <button className="btn btn-outline-secondary">🔐 Login</button>
+      <button className="btn btn-outline-secondary">🔐 Register</button>
 
       <span style={{ marginLeft: "auto", fontWeight: "bold" }}>
         🛒 Total: ${total.toLocaleString("es-CL")}
