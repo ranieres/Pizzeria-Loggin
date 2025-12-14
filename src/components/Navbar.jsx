@@ -1,5 +1,5 @@
 const Navbar = () => {
-  const total = 25000;
+  const total = 19190;
   const token = false;
 
   return (

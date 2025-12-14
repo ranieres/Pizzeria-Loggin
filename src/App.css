@@ -33,13 +33,6 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 
 
 
@@ -87,4 +80,46 @@
   padding: 5px 10px;
   font-size: 0.8rem;
   height: 40px;
+}
+
+
+.pizzas-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card general */
+.pizza-card {
+  width: 280px;         /* permite 3 por fila */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+}
+
+/* Imagen */
+.pizza-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Botones dentro de la card */
+.pizza-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.ingredientes-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientes-lista li {
+  font-size: 0.9rem;
 }
