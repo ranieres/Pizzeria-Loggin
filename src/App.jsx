@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import Home from "./components/home";
+import Home from "./components/Home";
 import Footer from "./components/footer";
 import './App.css';
 import Register from "./components/Register";
@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Navbar />
-       {/* <Home /> */ }
-       {/* <Register /> */}
-       {/* <Login/> */}
+      {/* <Home /> */ }
+      {/* <Register /> */}
+      {/* <Login/> */}
       <Cart />
       <Footer />
     </>
