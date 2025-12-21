@@ -1,8 +1,20 @@
 import Header from "./header";
 import CardPizza from "./cardPizza";
-import {pizzas} from "../assets/js/pizzas";
+// import {pizzas} from "../assets/js/pizzas";
+import { useEffect, useState } from "react";
 
 function Home() {
+
+const [pizzas, setPizzas] = useState([]);
+
+  useEffect(() => { 
+    fetch("http://localhost:5000/api/pizzas")
+      .then((responde) => responde.json())
+      .then((data) => setPizzas(data))
+      .catch((error) => console.error("Error al obtener pizzas:", error));
+  }, []); // se ejecuta solo una vez
+
+
   return (
     <div>
       <Header />

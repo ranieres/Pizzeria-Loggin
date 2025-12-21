@@ -91,6 +91,12 @@
   padding: 20px;
 }
 
+.pizzas-flex > * {
+  width: 300px;
+}
+
+
+
 /* Card general */
 .pizza-card {
   width: 280px;         /* permite 3 por fila */

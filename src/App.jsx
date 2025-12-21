@@ -5,7 +5,7 @@ import './App.css';
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Cart from "./components/Cart";
-
+import Pizza from "./components/Pizza";  
 
 
 
@@ -13,10 +13,11 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Home /> */ }
+      {/* <Home />  */}
       {/* <Register /> */}
       {/* <Login/> */}
-      <Cart />
+      {/* <Cart /> */}
+      <Pizza />
       <Footer />
     </>
   );
